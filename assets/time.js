@@ -20,7 +20,18 @@ const prediciton = ["Кицю, от тепер ти і став  ̶с̶т̶а̶�
 "Уже через кілька років ми будемо одружені, жити у найафігєнніщому будинку з песиком та котеням",
 "Кошеня, я тобою пишаюсь!",
 "У тебе все вийде, коханий",
-"You can do anything, my little star"
+"You can do anything, my little star", 
+"Let's create the best life for us",
+"Let's create the best life for us",
+"I love you regadless of anything",
+"I might be really weird right now because of a lot of things, but if you bear with me, I promise to give you the best life you can possibly can",
+"I love you gorgeous. Have a nice day<3",
+"how about a date?:)",
+"hmmmm, look at you! A gorgeous boy with the most beautiful personality",
+"I feel so lucky being your gf",
+"Twinkle twinkle little star, now I admire how beautiful you are",
+"Let's be the best version of ourselves together",
+"Would you like a tea date?"
 ];
 
 var today = new Date();
@@ -42,8 +53,5 @@ function getNumberOfDays(end) {
 
     return diffInDays;
 }
-
-day_i = getNumberOfDays(date);
-
 
 document.getElementById('wish').innerHTML = prediciton[day_i];
